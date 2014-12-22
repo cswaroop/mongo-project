@@ -14,6 +14,10 @@ MongoDB is a high-Write (Operational) data store and has a reasonably good aggre
 * MongoDB has weak security (compared to what you find in enter-pricy database features such as LDAP integration, row-level security though RBAC etc.).  Ofcourse they say just build a firewall and let it be access through an app with build-your-own RBAC.
 * Mongo supports secondary indexes.  Afterall `_id` is not sufficient access path.
 * Mongo is written in c/c++, if you believe databases shouldn' be written on JVM suffering GC breaks.
-* 
 ## Questions
 * Does MongoDB do distributed MapReduce with in the cluster?
+
+## Mongo Commands
+* How to start mongo server?
+mongod --dbpath=C:\data
+mongo --nodb 
