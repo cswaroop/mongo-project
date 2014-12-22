@@ -18,6 +18,10 @@ MongoDB is a high-Write (Operational) data store and has a reasonably good aggre
 * Does MongoDB do distributed MapReduce with in the cluster?
 
 ## Mongo Commands
-* How to start mongo server?
-mongod --dbpath=C:\data
-mongo --nodb 
+* `mongod --dbpath C:\data` to start server
+* `mongo --nodb` to start a client without connecting default db on localhost
+
+## Mongo Internals
+* Mongo stores JSON as [BSON](http://www.bsonspec.org)
+* Mongo preallocates to ensure consistency. For development time you can run server wih `--noprealloc`
+* Mongo uses Memory-Mapped Storage engine.  Its the OS which does flushing to disk.  It makes makes MongoDB memory hungry too
