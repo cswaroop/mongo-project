@@ -2,6 +2,10 @@
 
 Explore MongoDB!
 
+MongoDB is a `developer` friendly database (as opposed to DBA) ushered in an era where javascript developer has become full-stack developer and claimed a seat in the board consisting of Java, Python, Ruby.  Yeah they are MEAN unlike LAMP, RoR or JEE.
+
+For the first-time, JavaScript Developer, can hack his or her favorite frond-end framework (Angular, React, Polymer, ExtJS), can do Server-side (Node.JS + Expresss) and do database-side programming (MongoDB) for Analytics, all in ONE language without asking full-stack debugger and lot of money.  How about an offer you cannot refuse, POC in MEAN and productionize in pick your favorite web framework and database.
+
 ## About
 MongoDB is a NoSQL database that gives flexibility of data model through `Document`.  Other databases providing such flexibility include redis (through Key-Value, Sorted Map), Cassandra (through its flexible number of columns), CouchDB (through its document just like MongoDB, Neo4J (through its graph), Datomic (through its Entity-Key-Value-Transaction-Time tuple)
 
