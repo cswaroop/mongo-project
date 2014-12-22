@@ -12,6 +12,6 @@ MongoDB is a high-Write (Operational) data store and has a reasonably good aggre
 * MongoDB has automaic sharding
 * MongoDB has first-class replication
 * MongoDB has weak security (compared to what you find in enter-pricy database features such as LDAP integration, row-level security though RBAC etc.).  Ofcourse they say just build a firewall and let it be access through an app with build-your-own RBAC.
-
+* Mongo supports secondary indexes.  Afterall `_id` is not sufficient access path.
 ## Questions
 * Does MongoDB do distributed MapReduce with in the cluster?
