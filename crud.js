@@ -70,3 +70,6 @@ db.analytics.update({'url' : '/blog'}, {'$inc' : {'pageviews' : 1}}, true)
 
 db.users.findOne
 
+// Select .. for Update 
+
+// findAndModify
